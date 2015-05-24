@@ -1,0 +1,79 @@
+*{
+	-webkit=box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+*{
+	/*outline: 1px solid red !important;*/
+}
+
+.title{
+	background-color: #005287;
+	color: white;
+	display: -webkit-flex;
+	display: flex;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	max-height: 120px;
+	margin-left:10px;
+
+}
+
+.title .logo img{
+	max-height: 120px;
+}
+
+.title .header{
+	width: 90%;
+	text-align: right;
+}
+.title .header h1{
+	margin-bottom: 5px;
+}
+.title .header h4{
+	margin-top: 5px;
+}
+
+.main {
+	background-color: white;
+}
+
+.main img{
+	max-width:100%;
+	max-height:100%;
+	overflow:hidden;
+}
+
+
+#img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#img_cont figure {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+#img_cont img {
+	width: 100%; 
+}
+
+
+figure { margin: 0; }
+
+
+.subtitle{
+	font-style: italic;
+	margin-top:20px;
+	margin-bottom: 5px;
+	color: #005287;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+hr{
+	color:#BCBBBB;
+}
