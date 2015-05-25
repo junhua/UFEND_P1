@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
         <title>FEND101</title>
-
     </head>
-    <body>
-    <div class = "title">
+
+    <body class="body">
+
+    <header>
 		<figure class = "logo">
-            <img src = "images/logo.jpg" alt = "logo" />
+            <img class = "main-logo" src = "images/logo.jpg" alt = "logo" />
         </figure>
-		<div class = "header">
-            <h1>The Journey Art Collection</h1>
-            <h4>Snapshots of a thousand-mile journey</h4>
+		<div class="title">
+            <h1 class="title-main">The Journey Art Collection</h1>
+            <p class=".title-desc">Snapshots of a thousand-mile journey</p>
         </div>
-    </div>
+    </header>
     
-    <h3 class="subtitle">A step on a thousand-mile journey... </h3>
-    <div class = "main" >
+    <main id="content" class="group" role="main">
         
         <figure>
-            <img src="images/one_step.jpg" alt>
+            <img class="main-img" src="images/one_step.jpg" alt>
         </figure>
-    </div>
+        
 
-    <h3 class="subtitle">...And the roads behind</h3>
-    <div id="img_cont">
-
-        <figure>
-            <img src="images/road_1.jpg" alt />
-        </figure>
-        <figure>
-            <img src="images/road_2.jpg" alt />
-        </figure>
-        <figure>
-            <img src="images/road_3.jpg" alt />
-        </figure>
-    </div>
-    
+        <h3 class="subtitle">Featured Roads</h3>
+        <div class="img-cont">
+            <a href="#" class="img-cont-frame">
+                <img class="img-cont-content" src="images/road_1.jpg" alt />
+            </a>
+            <a href="#" class="img-cont-frame">
+                <img class="img-cont-content" src="images/road_2.jpg" alt />
+            </a>
+            <a href="#" class="img-cont-frame">
+                <img class="img-cont-content" src="images/road_3.jpg" alt />
+            </a>
+        </div>
+    </main>
     </body>
 </html>
