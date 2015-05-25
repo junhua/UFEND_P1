@@ -12,6 +12,8 @@ html {
 body {
     margin: auto;
     width: 90%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #005287;
 }
 
 header {
@@ -19,9 +21,8 @@ header {
 	color: white;
 	display: -webkit-flex;
 	display: flex;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	max-height: 120px;
-	margin: 10px 5px 10px 5px;
+	margin: 0;
 }
 
 figure { 
@@ -72,6 +73,4 @@ figure {
 	font-style: italic;
 	margin-top: 20px;
 	margin-bottom: 5px;
-	color: #005287;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
