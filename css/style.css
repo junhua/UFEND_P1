@@ -2,15 +2,20 @@ html {
     background: white;
 }
 
-header, footer, article, section, nav, menu { 
-   display: block;
+header,
+footer,
+article,
+section,
+nav,
+menu {
+    display: block;
 }
 
 body {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
     margin: auto;
     max-width: 4928px;
     width: 90%;
@@ -19,66 +24,65 @@ body {
 }
 
 .container-fluid {
-	padding-left: 0px;
-	padding-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .row {
-  margin-right: 0;
-  margin-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 h1 {
-	font-size: 180%;
-	color: white;
+    font-size: 180%;
+    color: white;
 }
 
 h2 {
-	font-size: 130%;
-	color: #016db3;
+    font-size: 130%;
+    color: #016db3;
 }
 
 h3 {
-	font-size: 130%;
-	color: #005287;
+    font-size: 130%;
+    color: #005287;
 }
 
 .mainheader {
-	background-color: #005287;
-	color: white;
-	display: -webkit-flex;
-	display: flex;
-	margin: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	max-height: 170px;
+    background-color: #005287;
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 170px;
 }
 
 .logo {
-	padding-left: 0px;
-	padding-right: 0px;
-
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .logo-main {
-	padding-left: 10px;
-	max-height: 150px;
+    padding-left: 10px;
+    max-height: 150px;
 }
 
 .title-main {
-	text-align: right; 
-  	top: 60%;
+    text-align: right;
+    top: 60%;
 }
 
 .title-desc {
-	text-align: right; 
-  	top: 70%;
+    text-align: right;
+    top: 70%;
 }
 
 .mainbody {
-	display: -webkit-flex;
-	display: flex;
-	margin: 0;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0;
 }
 
 .mainimg {
@@ -92,19 +96,18 @@ h3 {
 }
 
 .caption {
-	text-align: center;
-	margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .footer {
-	background-color: #005287;
-	padding-top: 10px;
-	padding-bottom: 10px;	
+    background-color: #005287;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer-text {
-	color:lightgray;
-	font-style: italic;
-	text-align: center;
-
+    color: lightgray;
+    font-style: italic;
+    text-align: center;
 }
