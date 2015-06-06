@@ -1,51 +1,67 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Front-end">
+        <meta name="keywords" content="HTML,CSS,Proqod">
+        <meta name="author" content="Junhua Liu">
+
+        <!-- Bootstrap css-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <!-- Bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Custom -->
         <link rel="stylesheet" href="css/style.css">
+
         <title>FEND101</title>
+
     </head>
 
-    <body class="body">
+    <body>
 
-    <header>
-		<figure class = "logo">
-            <img class = "main-logo" src = "images/logo.jpg" alt = "logo" />
-        </figure>
-		<div class="title">
-            <h1 class="title-main">The Journey Art Collection</h1>
-            <p class=".title-desc">Snapshots of a thousand-mile journey</p>
-        </div>
+    <header class = "container-fluid">
+        <section class = "mainheader row">
+            <figure class = "logo col-lg-2">
+                <img class = "logo-main img-responsive" src = "images/logo.jpg" alt = "logo" />
+            </figure>
+
+    		<section class="title col-lg-10">
+                <h1 class="title-main">The Journey Art Collection</h1>
+                <p class="title-desc">Snapshots of a thousand-mile journey</p>
+            </section>
+        </section>
     </header>
-    
-    <main id="content" class="group" role="main">
-        
-        <figure>
-            <img class="main-img" src="images/one_step.jpg" alt>
-        </figure>
-        
 
-        <h3 class="subtitle">Featured Roads</h3>
-        <div class="img-cont">
-            <figure class="img-cont-frame">
-                <a href="#">
-                    <img class="img-cont-content" src="images/road_1.jpg" alt />
-                </a>
-                <p class="caption"> Highway </p>
-            </figure>
-            <figure class="img-cont-frame">
-                <a href="#">
-                <img class="img-cont-content" src="images/road_2.jpg" alt />
-                </a>
-                <p class="caption"> Desert </p>
-            </figure>
-            <figure class="img-cont-frame">
-                <a href="#">
-                <img class="img-cont-content" src="images/road_3.jpg" alt />
-                </a>
-                <p class="caption"> Mountain </p>
-            </figure>
-        </div>
-    </main>
+        <main>
+            <section class = "mainbody row">
+                <figure class = "mainimg col-md-12">
+                    <img class="img-responsive" src="images/one_step.jpg" alt= 'a step' />
+                </figure>
+            </section>
+
+           <h2 class="subtitle">Featured Roads</h2>
+
+            <section class="galary row">
+                <figure class="galaryimg col-md-4">
+                    <img class="img-responsive" src="images/road_1.jpg" alt= "highway" />
+                    <h3 class="caption"> Highway </h3>
+                </figure>
+                <figure class="galaryimg col-md-4">
+                    <img class="img-responsive" src="images/road_2.jpg" alt= "desert" />
+                    <h3 class="caption"> Desert </h3>
+                </figure>
+                <figure class="galaryimg col-md-4">
+                    <img class="img-responsive" src="images/road_3.jpg" alt= "mountain" />
+                    <h3 class="caption"> Mountain </h3>
+                </figure>
+            </section>
+        </main>   
+         
     </body>
 </html>
