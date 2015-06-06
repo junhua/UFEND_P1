@@ -1,3 +1,2 @@
-Please visit:
-
-jh-journey.appspot.com
+# junhua.github.io
+Junhua's github page

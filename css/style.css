@@ -1,0 +1,75 @@
+html {
+    background: white;
+}
+
+body {
+	-webkit=box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #005287;
+}
+
+header {
+	background-color: #005287;
+	color: white;
+	display: -webkit-flex;
+	display: flex;
+	max-height: 120px;
+	margin: 0;
+}
+
+figure { 
+	margin: 0; 
+}
+
+.logo .main-logo {
+	max-height: 120px;
+}
+
+.title {
+	width: 90%;
+	text-align: right;
+}
+
+.title .title-main {
+	margin-bottom: 5px;
+}
+
+.title .title-desc {
+	margin-top: 5px;
+}
+
+.main-img {
+	text-align: center;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+.img-cont {
+	display: table;
+	width: 100%;
+	margin: 20px auto;
+}
+
+.img-cont .img-cont-frame {
+	display: table-cell;
+	text-align: center;
+	width: 16%;
+	padding: 5px;
+	}
+
+.img-cont .img-cont-content {
+
+	width: 100%; 
+}
+
+.subtitle {
+	font-style: italic;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
